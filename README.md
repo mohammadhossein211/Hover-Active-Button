@@ -1,4 +1,4 @@
-# Simple Rolling dice - React
+# Simple Hover/Active Button
 
 its just a simle Button that you can hover on it and click it. it has a nice animation!
 
