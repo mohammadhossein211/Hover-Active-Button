@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  background: #fcd04b;
+}
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  /* position: relative; */
+  background: #fcad26;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  font-size: 2rem;
+  padding: 25px 80px;
+  margin: auto;
+  box-shadow: 0 12px #efa424;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.button:hover {
+  box-shadow: 0 8px #efa424;
+  transform: translateY(4px);
+}
+.button:active {
+  box-shadow: 0 4px #efa424;
+  transform: translateY(8px);
+}
